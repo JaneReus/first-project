@@ -9,7 +9,7 @@ h1 {
     text-align: center;
 }
 
-p {
+p, h3 {
     font-size: 18px;
     line-height: 1.5;
 }
