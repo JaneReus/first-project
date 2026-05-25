@@ -18,9 +18,11 @@
                 <li class="header__links-list-item"><a href="#">об аукционе</a></li>
             </ul>
         </nav>
+
         <a class="header__logo">
             <img src="images\logo.png" alt="Логотип" class="header__logo-image">
         </a>
+
         <address class="header__address">
             <a href="tel:+70000000">+7(000)000-00-00</a>
             <a href="mailto:mail@example.com">mail@example.com</a>
@@ -30,15 +32,20 @@
         </address>
     </header>    
     <main>
-        <section class="cover">
-            <h1>ОНО</h1>
-            <h1>ТЕБЕ</h1>
-            <h1>НАДО</h1>
+    <section class="cover">
+        <div class="overlay">
+            <h1 class="cover__title">
+                <span class="aligned-text">оно</span>
+                <span class="aligned-text aligned-text_center">тебе</span>
+                <span class="aligned-text aligned-text_right">надо</span>
+            </h1>
             <div class="description">
-                <p>АУКЦИОН ВЕЩЕЙ, В КОТОРЫЕ НИКТО НЕ ВЕРИЛ</p>
-                <button>СДЕЛАТЬ СТАВКУ</button>
+                <p class="cover__description-text">АУКЦИОН ВЕЩЕЙ, В КОТОРЫЕ НИКТО НЕ ВЕРИЛ</p>
+                <button class="bet-button">СДЕЛАТЬ СТАВКУ</button>
             </div>
-        </section>
+        </div>
+    </section>
+
         <section>
             <h1>ЛОТЫ</h1>
             <ul>
@@ -61,6 +68,7 @@
             </ul>
             <button>посмотреть больше</button>
         </section>
+
         <section>
             <div><img src="images/logo2.png" alt="Логотип"></div>
             <div>
