@@ -36,7 +36,6 @@ a {
     list-style: none;
     color: black;
     font-size: 18px;
-    line-height: 100%;
     letter-spacing: 0%;
 }
 
@@ -44,7 +43,6 @@ a {
     padding-right: 13px;
     color: black;
     font-size: 18px;
-    line-height: 100%;
     letter-spacing: 0%;
 }
 
@@ -57,8 +55,12 @@ a {
 
 .header__address {
     max-width: 240px;
-    font-size: 18px;
     justify-self: end;
+    color: black;
+    font-size: 18px;
+    line-height: 24.3px;
+    letter-spacing: 0;
+    font-style: normal;
 }
 
 .cover {
